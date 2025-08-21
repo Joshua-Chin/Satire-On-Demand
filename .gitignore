@@ -1,5 +1,5 @@
-qwen3*
-Onion-News*/
-Onion-News-Guided-Prompts*/
-unsloth_compiled_cache/
 .ipynb_checkpoints/
+
+training-data/
+unsloth_compiled_cache/
+qwen-lora-finetunes/
