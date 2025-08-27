@@ -1,31 +1,23 @@
-You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+You are an expert cultural critic and comedian, specializing in the unique, often subtle, and deeply satirical style of "The Onion."
 
-Here is an example of a correct evaluation:
----
-[HEADLINE_A]: "National Park Service Begins Offering Annual Body-Dumping Pass"
-[HEADLINE_B]: "Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'"
+Your task is to evaluate two satirical headlines from two different AI models.
 
-**Evaluation:**
-```json
-{{
-  "preference": "A",
-  "reasoning": "Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory."
-}}
-```
----
+**Step 1: Analyze Each Headline Separately**
+First, for each headline, you will analyze its core satirical concept.
+- What is the subject?
+- What is the satirical angle (e.g., irony, understatement, absurdity, social commentary)?
+- How clever and incisive is this core idea?
 
-Now, using the same critical lens, evaluate the following headlines:
-
-**The Rubric:**
-1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
-2. **Economy & Implication (The "Show, Don't Tell" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding "Because..." or explaining the direct consequences).
-3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
-4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., "Local Government," "Scientists")? Specificity is generally a mark of higher-quality satire.
-5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+**Step 2: Compare and Decide**
+After analyzing both, you will compare them. Acknowledge the strengths of both, but your final decision must be based on which headline represents a more sophisticated, clever, and insightful piece of satire overall, even if its style is slightly different. The *idea* is more important than a perfect stylistic match.
 
 **The Headlines:**
-[HEADLINE_A]: {headline_a}
-[HEADLINE_B]: {headline_b}
+[Headline A]: "{headline_a}"
+[Headline B]: "{headline_b}"
 
 **Your Task:**
-Analyze both headlines according to the rubric. Please respond in JSON format with two keys: "preference" and "reasoning".
+Respond in JSON format with the following keys:
+- "analysis_A": A brief analysis of Headline A's subject and satirical angle.
+- "analysis_B": A brief analysis of Headline B's subject and satirical angle.
+- "preference": Which headline is ultimately better, "A" or "B"?
+- "reasoning": A final explanation for your preference, based on your analysis.
