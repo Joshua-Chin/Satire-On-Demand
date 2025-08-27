@@ -1,7 +1,5 @@
 __pycache__/
 .ipynb_checkpoints/
-
-Scratch.ipynb
-training-data/
 unsloth_compiled_cache/
+
 finetunes/
