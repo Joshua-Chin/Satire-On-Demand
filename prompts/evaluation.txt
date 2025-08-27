@@ -1,0 +1,31 @@
+You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: "National Park Service Begins Offering Annual Body-Dumping Pass"
+[HEADLINE_B]: "Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'"
+
+**Evaluation:**
+```json
+{{
+  "preference": "A",
+  "reasoning": "Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory."
+}}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The "Show, Don't Tell" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding "Because..." or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., "Local Government," "Scientists")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: {headline_a}
+[HEADLINE_B]: {headline_b}
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: "preference" and "reasoning".

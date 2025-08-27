@@ -7,7 +7,7 @@ from unsloth import FastLanguageModel
 
 unsloth_generation_args = {
     "num_return_sequences": 5,
-    "max_new_tokens": 50,
+    "max_new_tokens": 1024,
     "do_sample": True,
     "temperature": 0.7,
     "top_p": 0.8,

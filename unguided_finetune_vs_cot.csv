@@ -1,0 +1,621 @@
+Headline_A,Headline_B,Preference,Swapped,Prompt,Reasoning
+"U.S. To Provide $100,000 To Each Citizen To Buy A Car",Cher Fan Club Have Fun,A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: U.S. To Provide $100,000 To Each Citizen To Buy A Car
+[HEADLINE_B]: Cher Fan Club Have Fun
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A masterfully embodies the essence of Onion-style satire. Its premise—the U.S. government providing $100,000 to every citizen specifically 'To Buy A Car'—is absurdly specific and implies a world where such a fantastically wasteful and misguided policy could be enacted. It 'shows' the absurdity without explaining it, trusting the reader to grasp the critique of governmental largesse, consumerism, or simplistic economic solutions. The dry, journalistic precision of the language further enhances the comedic effect. Headline B, by stark contrast, is not satire; it is merely a factual, if grammatically flawed, statement. There is no clever premise, no implied humor, and no deeper cultural commentary. 'Cher Fan Club Have Fun' is mundane, lacks linguistic wit, and fails to 'show' any satirical point, making it utterly devoid of the qualities that define sharp, Onion-esque humor."
+Study: 1 In 3 Americans Will Be In Prison By 2030,"Politician: I'm So Sober I Can't Get A Date, I'm So Drunk Off My Ass I Can't Remember My Own Name",A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Study: 1 In 3 Americans Will Be In Prison By 2030
+[HEADLINE_B]: Politician: I'm So Sober I Can't Get A Date, I'm So Drunk Off My Ass I Can't Remember My Own Name
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A masterfully embodies Onion-style satire through its deadpan delivery and chilling implication. It presents a statistical projection with the detached authority of a 'Study,' forcing the reader to confront a grim, absurdly logical extrapolation of current societal trends, namely the escalating carceral state. The humor is derived from the sheer horror and plausibility of such a future, trusting the audience to connect the dots without any explicit commentary. It is sharp, specific in its numerical detail, and targets a systemic societal failure. Headline B, by contrast, breaks the fundamental rule of 'show, don't tell.' It explicitly spells out its internal contradiction for comedic effect, essentially narrating its own joke through a direct quote. The politician's self-deprecating and contradictory statement is a direct punchline rather than an implied absurdity. Its language is colloquial rather than leveraging formal journalistic tone for satirical effect, and its target, 'Politician,' is generic, offering a less incisive critique than Headline A's societal-level commentary."
+"U.S. Military To Deploy 500,000 Troops To Aid In Hurricane Relief Efforts",Teen Charged With Minor Offense Faces 30-Year Sentence,A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: U.S. Military To Deploy 500,000 Troops To Aid In Hurricane Relief Efforts
+[HEADLINE_B]: Teen Charged With Minor Offense Faces 30-Year Sentence
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A, 'U.S. Military To Deploy 500,000 Troops To Aid In Hurricane Relief Efforts,' is the superior example of Onion-style satire. Its brilliance lies in the specific, institutional absurdity it invents. The sheer scale (500,000 troops) and the agent (the U.S. Military, an instrument of war) for the task (hurricane relief) create a vivid, deadpan comedic image of egregious overreach and misallocation of resources. The humor is derived from the professional, bureaucratic language describing an utterly disproportionate and nonsensical response, trusting the reader to grasp the satire about governmental inefficiency and the militarization of civilian problems without explicit commentary. Headline B, 'Teen Charged With Minor Offense Faces 30-Year Sentence,' is a strong, biting piece of satire that effectively highlights the egregious injustices within the legal system through its stark contrast. However, its power comes from a highly condensed presentation of a very real, albeit absurd, systemic problem. While effective, it leans more into the realm of exposing an already existing absurdity rather than inventing a new, bureaucratically plausible, yet utterly ridiculous, institutional action, which is a hallmark of elite Onion satire. Headline A's inventive institutional response provides a slightly sharper edge for the specific brand of humor requested."
+"‘I Can’t Believe You’re Still Alive After All This Time,’ Says Woman To Woman She Just Met",Theologians Try To Make The Book Of Mormon Work For Women,B,True,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Theologians Try To Make The Book Of Mormon Work For Women
+[HEADLINE_B]: ‘I Can’t Believe You’re Still Alive After All This Time,’ Says Woman To Woman She Just Met
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A exemplifies superior Onion-style satire due to its sharp, specific premise and profound implication. By stating 'Theologians Try To Make The Book Of Mormon Work For Women,' it masterfully trusts the reader to understand the inherent, anachronistic clash between ancient patriarchal texts and modern gender equality. The humor arises from the futile, almost corporate-sounding effort to 'make it work,' satirizing institutional attempts to reconcile outdated dogma with contemporary values without fundamentally altering the core problem. This headline is precise in its language and specific in its target, offering a rich cultural commentary on the tension between tradition and progress. Headline B, conversely, presents a moment of immediate, isolated absurdity ('I Can’t Believe You’re Still Alive After All This Time,’ Says Woman To Woman She Just Met). While amusing, its humor is direct and observational, lacking the layered social critique and specific institutional target that characterizes elite satire. It's a funny non-sequitur rather than a pointed jab at a systemic folly, making it less sharp and less effective as Onion-style commentary."
+TikTok Bans ‘Bathroom’ From Its App,The Future,A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: TikTok Bans ‘Bathroom’ From Its App
+[HEADLINE_B]: The Future
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A, 'TikTok Bans ‘Bathroom’ From Its App,' is a far superior example of Onion-style satire. It expertly employs a specific target (TikTok) and a comically absurd action (banning 'Bathroom') to imply a sharp critique of corporate overreach, algorithmic censorship gone awry, and the sanitization of online discourse. Its humor is entirely implied, trusting the reader to understand the absurdity without explicit explanation. The use of sterile, journalistic language for such a ridiculous premise amplifies the satirical effect, highlighting the folly it skewers. Conversely, Headline B, 'The Future,' is not a headline in any meaningful satirical sense. It lacks a premise, a specific target, an action, or any form of implied commentary. It is merely a noun phrase, utterly devoid of the cleverness, specificity, and ironic tension required for effective satire. There is no 'show' to connect to, only an abstract 'tell' that tells nothing. Thus, A is a meticulously crafted satirical jab, while B is an inert non-starter."
+Biden’s Inaugural Speech Begins With ‘The People Have Elected Me’,Iraq War Ignored By Teenager Who Only Watches 'Guiding Light',A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Biden’s Inaugural Speech Begins With ‘The People Have Elected Me’
+[HEADLINE_B]: Iraq War Ignored By Teenager Who Only Watches 'Guiding Light'
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A exemplifies superior Onion-style satire through its profound subtlety and absolute trust in the reader. The headline, 'Biden’s Inaugural Speech Begins With ‘The People Have Elected Me’,' takes a statement that should be glaringly obvious and renders it absurd and newsworthy purely through implication. Its satirical premise hinges on the current political climate where basic truths about democratic processes are contested, making a president's affirmation of his election both plausible and darkly humorous. The humor is not in what is said, but in the grim implication that such an obvious declaration would be remarkable enough to warrant a headline. It is incredibly economical, precise in its journalistic deadpan, and targets a specific political figure and moment without ever needing to explain its own joke. Headline B, while a good example of satire with a clear, absurd juxtaposition ('Iraq War Ignored By Teenager Who Only Watches 'Guiding Light''), relies on a more direct contrast for its humor. Its comedic effect is immediately apparent through the stark comparison of a global crisis and mundane self-absorption. However, Headline A’s almost imperceptible twist on reality, turning the mundane into the profoundly satirical through context alone, makes it the sharper and more quintessentially Onion-esque piece."
+Biden Announces He Will Not Run For President Again,Pop Dance Music,A,True,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Pop Dance Music
+[HEADLINE_B]: Biden Announces He Will Not Run For President Again
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A, 'Pop Dance Music,' is not a headline in any satirical sense; it is merely a generic categorization of a music genre. It contains no discernible satirical premise, implies no deeper commentary, and utterly fails the 'show, don't tell' test because there is nothing to show or tell. It is completely devoid of wit or comedic intent, rendering it ineligible for serious satirical consideration. Headline B, 'Biden Announces He Will Not Run For President Again,' while structured as a news headline, is also a profound failure in Onion-style satire. It presents a straightforward, non-satirical political statement without any twist of irony, absurdity, or clever subversion of journalistic language for comedic effect. There is no implicit joke, no absurd scenario, and no deeper cultural truth being exposed without being explicitly mentioned; it merely states a hypothetical political event. However, if forced to choose the 'better' of two non-satirical options, Headline B at least adheres to the structural format of a headline, which is the bare minimum requirement for something to even *attempt* to be Onion-esque. Headline A doesn't even make that grade."
+Catholic Church Bans Use Of ‘Savior’ In Reference To Jesus Christ,Bush Gives North Korea National Security Briefing,A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Catholic Church Bans Use Of ‘Savior’ In Reference To Jesus Christ
+[HEADLINE_B]: Bush Gives North Korea National Security Briefing
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A exemplifies superior Onion-style satire through its profound internal absurdity and devastating linguistic precision. The premise of the 'Catholic Church' banning 'Savior' in reference to 'Jesus Christ' creates a perfect storm of self-contradiction, highlighting the ultimate bureaucratic overreach or the triumph of semantic policing over foundational tenets. This profound inversion of an institution's very identity is presented with deadpan journalistic gravity, trusting the reader to grasp the immense irony without explicit explanation. It is sharp, specific, and deeply implies commentary on the absurdities of institutional self-sabotage and the erosion of meaning. Headline B, while effective in its absurdity of an impossible political action, relies more on shock value. 'Bush Gives North Korea National Security Briefing' is undeniably humorous in its geopolitical improbability, but it lacks the internal, existential satirical bite that Headline A achieves by having an institution actively undermine its own sacred core. A's humor is about the very logic of an institution spiraling into meaninglessness, making it the sharper, more 'Onion-esque' commentary."
+Cleveland Browns Hire New Head Coach After Losing Super Bowl 77-0,Families Of 9/11 Victims,A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Cleveland Browns Hire New Head Coach After Losing Super Bowl 77-0
+[HEADLINE_B]: Families Of 9/11 Victims
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A is a masterclass in Onion-style satire, while Headline B is not satire at all. Headline A brilliantly leverages hyperbole and specific context: the Cleveland Browns, a team synonymous with futility, reaching the Super Bowl only to be obliterated by an impossible 77-0 score, then responding with the mundane act of hiring a new coach. This setup 'shows' a profound absurdity, implying commentary on the cyclical, often hopeless nature of sports management and fan expectations without explaining the joke. Its linguistic precision and specific target make the humor sharp and effective. Headline B, by contrast, is merely a noun phrase, 'Families Of 9/11 Victims.' It lacks a verb, a premise, an action, or any twist that would transform it into satire. It fails every aspect of the rubric; there is no clever idea, no implication of social commentary, no witty phrasing, and no satirical target or implied cultural critique. It reads like a somber news fragment, not a satirical headline."
+Man Injured In Car Accident Finds He Can’t Remember What He Was Doing Before He Got Hit,President's Best Efforts To Rebuild Economy,B,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Man Injured In Car Accident Finds He Can’t Remember What He Was Doing Before He Got Hit
+[HEADLINE_B]: President's Best Efforts To Rebuild Economy
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Both headlines are woefully inadequate examples of Onion-style satire, demonstrating a profound misunderstanding of the craft. Headline A is not satire at all; it's a literal, albeit slightly morbid, observation about memory loss. It lacks any clever, ironic, or absurd core idea, failing completely on the 'satirical premise' and 'implied cultural commentary' fronts. Headline B, while also incomplete and devoid of an actual punchline, marginally edges out A. Its phrase, 'President's Best Efforts To Rebuild Economy,' at least identifies a specific, high-profile target for potential satire (political efforts) and carries a faint, inherent cynicism often associated with such pronouncements in real-world political commentary. It hints at a 'satirical premise' by alluding to political futility, even if the crucial absurd twist or consequence is missing. Headline A, by contrast, is a mere factual statement, devoid of any satirical intention or direction whatsoever."
+Man’s Only Reason For Living Is To Get Rich,Celebrity Takes 'Cool' Patriotism To The Next Level,B,True,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Celebrity Takes 'Cool' Patriotism To The Next Level
+[HEADLINE_B]: Man’s Only Reason For Living Is To Get Rich
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A, 'Celebrity Takes 'Cool' Patriotism To The Next Level,' is a superior example of Onion-style satire. It masterfully employs implication and trusts the reader to envision the absurd extremes of performative patriotism. The use of scare quotes around 'Cool' and the clichéd phrase 'To The Next Level' are linguistically precise, mocking the vapid nature of such declarations without explicitly stating the joke. It targets the specific cultural phenomenon of celebrity posturing, inviting a deeper commentary on the commodification of identity and the escalating demands for public attention. Headline B, 'Man’s Only Reason For Living Is To Get Rich,' fails the 'show, don't tell' test completely. It is a blunt, declarative statement that explains its entire cynical premise, leaving no room for inference or comedic imagination. Its language is pedestrian, lacking the witty precision characteristic of elite satire, and its target, 'Man,' is too generic to be incisive. B states a common observation; A transforms a common observation into an absurd, implied scenario, which is the hallmark of great satire."
+Man Sues Restaurant For Serving Him Canned Food,Crown Prosecution Service To Begin Prosecution Of The Man Who Stole The Crown Jewels,B,True,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Crown Prosecution Service To Begin Prosecution Of The Man Who Stole The Crown Jewels
+[HEADLINE_B]: Man Sues Restaurant For Serving Him Canned Food
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A is superior because its humor is exquisitely Onion-esque in its bureaucratic absurdity and linguistic precision. It satirizes the very concept of news, presenting the utterly obvious – a prosecution for stealing the Crown Jewels – with a straight-faced, formal announcement ('Crown Prosecution Service To Begin Prosecution Of...'). The comedic genius lies in the headline's implicit jab at institutional redundancy and the banality of official processes. It trusts the reader to recognize the inherent absurdity of reporting something so predictable. Headline B, while a decent premise about consumer entitlement, is less specific in its targets ('Man,' 'Restaurant') and its language is more generic. It lacks the subtle, sharp wit that comes from Headline A's specific, formal, and almost tautological phrasing, which elevates it to a higher plane of satirical commentary on institutions themselves."
+‘The People’s Republic of China’ To Take Over The World,"Man Wants To Be Seen In Public Affair, But Embarrassed By The Effort",B,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: ‘The People’s Republic of China’ To Take Over The World
+[HEADLINE_B]: Man Wants To Be Seen In Public Affair, But Embarrassed By The Effort
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline B is a masterful example of Onion-style satire, achieving its humor through brilliant implication and a specific, absurd scenario. It presents a protagonist whose vanity craves the notoriety of a 'Public Affair' but whose laziness is 'Embarrassed By The Effort,' perfectly capturing a specific modern folly: the desire for the *appearance* of drama without the inconvenience. This headline trusts the reader to unpack its layers of commentary on performative living, superficiality, and human contradiction. Headline A, by contrast, is a blunt instrument. It explicitly states a grand, generic geopolitical fear without any subtle irony or clever phrasing. Its humor, if any, comes from the sheer bluntness, but it fails the 'show, don't tell' test catastrophically, explaining its own premise rather than implying a deeper truth. B's linguistic precision and focus on a specific human foible make it vastly superior."
+Man Dies After Taking Too Much Tylenol,I Want To Be A Critic,A,True,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: I Want To Be A Critic
+[HEADLINE_B]: Man Dies After Taking Too Much Tylenol
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Neither headline truly embodies the essence of Onion-style satire, demonstrating a profound misunderstanding of the genre. However, a choice must be made in this academic exercise of futility. Headline A, 'I Want To Be A Critic,' fails spectacularly on nearly every count. It is not a headline but a first-person declaration, utterly lacking the journalistic framing, deadpan delivery, and implied scenario critical to Onion satire. There is no satirical premise, no witty language, and no discernible cultural commentary; it merely states a desire, which is perhaps the most uninspired form of 'joke' possible. Headline B, 'Man Dies After Taking Too Much Tylenol,' while tragically mundane and completely devoid of satirical intent, at least adheres to the *form* of a news headline. It uses journalistic language, is specific in its details (a man, Tylenol, death), and is economical, in that it doesn't over-explain (though there is nothing satirical to explain). Its failure is one of content – a complete absence of a clever premise or absurd implication – rather than a total collapse of form. Thus, by the narrowest, most begrudging of margins, Headline B is 'better' only because it manages to look like a headline, even if its soul is bereft of satire. It is the lesser of two entirely ineffectual evils."
+Man In ‘Billionaire’ Suit Stares At His Reflection In Mirror,Bush Administration Addresses Serious World Problem With Minor U.S. Government Action,A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Man In ‘Billionaire’ Suit Stares At His Reflection In Mirror
+[HEADLINE_B]: Bush Administration Addresses Serious World Problem With Minor U.S. Government Action
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A exemplifies superior Onion-style satire through its reliance on implication and visual wit. The phrase 'Billionaire' Suit, artfully enclosed in quotation marks, immediately signals an aspirational falsehood, while the act of staring at one's reflection illuminates a poignant, absurd vanity. The humor stems from the reader connecting these elements to comment on consumerism, status performance, and self-delusion, without any explicit explanation. By contrast, Headline B, while targeting a specific administration, explicitly states its satirical premise: 'Addresses Serious World Problem With Minor U.S. Government Action.' This direct declaration of the incongruity 'tells' the reader the joke rather than 'showing' it through a specific, absurd scenario. Onion-style satire trusts the audience to discern the deeper meaning, a trust Headline A unequivocally demonstrates, making it the sharper, more sophisticated example."
+"TikTok Influencer’s New Product: ‘I’m Not A Influencer, I Just Sell Things That People Like’",Bush Apologizes For War,B,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: TikTok Influencer’s New Product: ‘I’m Not A Influencer, I Just Sell Things That People Like’
+[HEADLINE_B]: Bush Apologizes For War
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline B, 'Bush Apologizes For War,' is the superior example of Onion-style satire. Its brilliance lies in its breathtaking economy and profound implication. By stating a highly improbable yet deeply resonant event with no further explanation, it perfectly embodies the 'show, don't tell' principle. The specific target, 'Bush,' immediately evokes complex historical contexts and political controversies, allowing the reader to fill in the vast, cynical implications of such an apology without the headline needing to explain its own joke. This brevity creates a sharp, almost shocking impact, trusting the reader to grasp the layers of absurdity, political accountability (or lack thereof), and historical revisionism. Headline A, while a clever jab at influencer culture's disingenuousness, presents its satirical premise more directly through the ironic quote itself. While effective, the humor is slightly more contained within the literal words of the 'influencer,' making it a fraction less incisive and universally resonant than B's stark, potent declaration."
+Study: 70% Of Americans Think They’re At Least Slightly Smarter Than Average Person,Carter Scandal,A,True,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Carter Scandal
+[HEADLINE_B]: Study: 70% Of Americans Think They’re At Least Slightly Smarter Than Average Person
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A, 'Carter Scandal,' is not satire; it's merely a generic, uninspired news headline that could be found in any legitimate publication. It completely lacks a satirical premise, linguistic wit, or any implied cultural commentary. There is no 'show, don't tell' here, as there is nothing to show in the first place. Headline B, by contrast, is a masterclass in Onion-style satire. Its core premise is brilliantly absurd: 70% of a population cannot, by definition, be 'smarter than the average person.' It leverages the authoritative language of a 'Study' to present a statistically impossible and comically arrogant finding. This headline perfectly embodies the 'show, don't tell' principle by presenting the ridiculous 'fact' and trusting the reader to grasp the implied critique of human ego, self-delusion, and cognitive bias. It is specific in its numbers and format, sharp in its commentary, and far superior in every aspect of satirical craftsmanship."
+Cops Arrest Woman For Driving Car Without License,Music Producer To Work On New Song,A,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Cops Arrest Woman For Driving Car Without License
+[HEADLINE_B]: Music Producer To Work On New Song
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A is theoretically preferred over B only because a choice is mandated, as both are equally devoid of any satirical merit. Both headlines are exemplary only in their complete failure to grasp the essence of Onion-style satire. They offer no clever premise, no subtle implication, no witty language, and target nothing beyond the painfully literal. 'Cops Arrest Woman For Driving Car Without License' is merely a bland police blotter entry, while 'Music Producer To Work On New Song' reads like a factory report. Neither trusts the reader because neither has a joke to impart; they are just facts. They epitomize the antithesis of satire, existing as utterly uninspired, unironic statements that would induce a coma before a chuckle. To select one as 'better' is to assign value to absolute nothingness."
+"‘I’m Not Sure I Understand What You Mean,’ Says Man At Gas Station To Woman Who Is Asking Him To Take Her To The Mall",Yesterday Too Boring For Elvis,B,True,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Yesterday Too Boring For Elvis
+[HEADLINE_B]: ‘I’m Not Sure I Understand What You Mean,’ Says Man At Gas Station To Woman Who Is Asking Him To Take Her To The Mall
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline A, 'Yesterday Too Boring For Elvis,' is a masterful example of Onion-style satire. Its humor is incredibly economical and trusts the reader to grasp the absurd premise: even a cultural icon of unparalleled charisma and excess would find an ordinary day insufficient. It uses a specific, universally recognized figure (Elvis) to make a broader, implied commentary on our insatiable appetite for stimulation and the often-mundane reality of existence, even for the legendary. The phrasing is witty and concise, delivering a sharp punchline without explanation. Headline B, by contrast, is a complete failure of satirical economy. It explicitly describes a mundane interaction in excruciating, narrative detail, resembling a poorly written stage direction rather than a headline. There is no clever implication, no linguistic precision, and the targets are generic 'Man at Gas Station' and 'Woman.' Its length and literalism violate every principle of 'show, don't tell,' offering no wit or deeper cultural commentary beyond the mere recitation of an awkward, uninteresting non-event. It explains the entire 'joke' by simply stating it, which is the antithesis of sharp, intelligent satire."
+Study Finds 97% Of Americans Have No Idea What They’re Talking About,Free Speech Movement Censors Itself,B,False,"You are an expert satirical critic. Your task is to compare two headlines based on the provided rubric and determine which is a better example of Onion-style satire. Onion-style satire is sharp, specific, and trusts the reader; it avoids explaining its own joke.
+
+Here is an example of a correct evaluation:
+---
+[HEADLINE_A]: ""National Park Service Begins Offering Annual Body-Dumping Pass""
+[HEADLINE_B]: ""Government Announces Plan to Ban All Outdoor Activities to 'Preserve the National Mood of Pessimism'""
+
+**Evaluation:**
+```json
+{
+  ""preference"": ""A"",
+  ""reasoning"": ""Headline A is superior because its humor is implied and trusts the audience. It presents a grimly plausible bureaucratic 'solution' to a dark problem, creating powerful satire about the normalization of violence and institutional absurdity. Headline B, by contrast, explicitly states its satirical premise in the phrase 'to Preserve the National Mood of Pessimism.' This over-explanation weakens the joke, violating the 'show, don't tell' principle of elite satire. A is sharp and specific in its imagery, while B is generic and explanatory.""
+}
+```
+---
+
+Now, using the same critical lens, evaluate the following headlines:
+
+**The Rubric:**
+1. **Satirical Premise**: Does the headline have a clever, ironic, or absurd core idea?
+2. **Economy & Implication (The ""Show, Don't Tell"" Test)**: Does the headline imply its social commentary through a specific, absurd scenario, or does it explicitly state its punchline or meaning? Headlines that trust the reader to connect the dots are superior. Penalize headlines that over-explain themselves (e.g., by adding ""Because..."" or explaining the direct consequences).
+3. **Linguistic Precision**: Is the phrasing witty, using professional or journalistic language for comedic effect?
+4. **Targeting**: Does the headline use a specific target (a person, company, or event) to make a sharp point, or does it rely on a generic target (e.g., ""Local Government,"" ""Scientists"")? Specificity is generally a mark of higher-quality satire.
+5. **Implied Cultural Commentary**: What deeper cultural truth, anxiety, or folly is being exposed without being explicitly mentioned?
+
+**The Headlines:**
+[HEADLINE_A]: Study Finds 97% Of Americans Have No Idea What They’re Talking About
+[HEADLINE_B]: Free Speech Movement Censors Itself
+
+**Your Task:**
+Analyze both headlines according to the rubric. Please respond in JSON format with two keys: ""preference"" and ""reasoning"".","Headline B, 'Free Speech Movement Censors Itself,' is a masterful piece of Onion-style satire. Its genius lies in the exquisite economy and implication of its core premise. By juxtaposing 'Free Speech Movement' with 'Censors Itself,' it presents an immediate, profound paradox that requires no further explanation. The humor and the sharp social commentary are entirely contained within this contradictory statement, forcing the reader to confront the inherent hypocrisy and the dangers of ideological purity that often plague such movements. This exemplifies the 'show, don't tell' principle: it trusts the reader to unpack the deeper cultural truth about groups betraying their own tenets. Headline A, 'Study Finds 97% Of Americans Have No Idea What They’re Talking About,' while amusing, falls short on the 'economy and implication' front. It explicitly states its punchline, essentially delivering a direct observation rather than crafting an absurd scenario to imply a truth. The specificity of targeting is also superior in B; 'Free Speech Movement' is a loaded term with historical and contemporary resonance, allowing for a much sharper critique than the generic 'Americans' in Headline A."
