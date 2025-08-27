@@ -11,6 +11,11 @@ def get_as_messages(data):
     messages = get_prompt()
     messages.append(format_reply(headline))
     return {'messages': messages}
+
+def get_text_as_messages(data):
+    messages = get_prompt()
+    messages.append(format_reply(data['text']))
+    return {'messages': messages}
     
 def get_headline(text):
     return text.split(SEP)[0].strip()

@@ -1,0 +1,21 @@
+Given a list satirical headline, determine a reasoning trace that leads to the headline for each. Output a list of JSON objects. In the first, provide a single sentence stating the target. In the second, provide a single sentence stating the satirical angle.
+
+For example:
+U.S. Officials Call For Correct Amount Of Violence
+World’s Oldest American Dies At 72
+
+```json
+[
+    {
+        "target": "U.S. foreign policy and military interventions, and the rhetoric used to justify them.",
+        "satirical_angle": "Understatement / Euphemism - violence can have a 'correct' or 'appropriate' amount."
+    },
+    {
+        "target": "The poor health of Americans, despite their wealth",
+        "satirical_angle": "Exaggeration and Hyperbole - Americans die very young."
+    }
+]
+```
+
+The following is your input:
+{{ headlines }}
