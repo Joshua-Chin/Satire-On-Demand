@@ -2,9 +2,8 @@ from threading import Thread
 
 import gradio as gr
 
-from unsloth import FastLanguageModel
 import torch
-from transformers import TextIteratorStreamer
+from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStreamer
 
 
 generation_args = {
@@ -20,11 +19,15 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Load model and tokenizer
 model_name = "joshuachin/Qwen3-4B-Instruct-2507-satirical-headlines-CoT"
-model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name=model_name,
-    load_in_4bit=False,
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype="auto",
 )
-model = FastLanguageModel.for_inference(model)
+
+model.to(device)
+model.eval()
+
 
 def generate_text(prompt):
     # tokenize the inputs
