@@ -156,7 +156,7 @@ Overall, here's how I would describe each model.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Joshua-Chin/satire-on-demand
+    git clone https://github.com/Joshua-Chin/Satire-On-Demand.git
     ```
 
 2.  **Install dependencies:**
