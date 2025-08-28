@@ -1,5 +1,6 @@
 __pycache__/
 .ipynb_checkpoints/
 unsloth_compiled_cache/
+.gradio
 
 finetunes/
