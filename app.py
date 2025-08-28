@@ -19,7 +19,7 @@ generation_args = {
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Load model and tokenizer
-model_name = './finetunes/03-unsloth-CoT/checkpoint-60'
+model_name = "joshuachin/Qwen3-4B-Instruct-2507-satirical-headlines-CoT"
 model, tokenizer = FastLanguageModel.from_pretrained(
     model_name=model_name,
     load_in_4bit=False,
@@ -54,10 +54,21 @@ def generate_text(prompt):
         full_response += new_text
         yield full_response
 
-
+description = """
+This a demo of a Qwen3-4B model fine-tuned to generate satirical news headlines in the style of *The Onion*.
+This specific model was trained on a synthetic Chain-of-Thought dataset to improve its understanding of satirical angles.
+Enter a prompt to see what it comes up with!
+"""
 interface = gr.Interface(
     fn=generate_text,
-    inputs=["text"],
-    outputs=["text"],
+    inputs=gr.Textbox(lines=2, placeholder="Enter a prompt: Write a satirical headline about..."),
+    outputs="text",
+    title="Satire On Demand",
+    description=description,
+    examples=[
+        ["Write a ironic satirical headline about government overreach. Avoid understatement."],
+        ["Can you write an absurd satirical headline about fast food?"],
+        ["Please create a  satirical headline about Napoleon."],
+    ]
 )
 interface.launch()
