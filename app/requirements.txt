@@ -1,0 +1,15 @@
+gradio==5.44.0
+
+# Core fine-tuning dependencies
+unsloth==2025.8.7
+flash_attn==2.8.3
+
+# Core evaluation dependencies
+google-genai==1.31.0
+
+# Jupyter lab / notebooks
+jupyterlab==4.4.6
+
+# Parsing utils
+spacy==3.8.7
+yake==0.6.0
