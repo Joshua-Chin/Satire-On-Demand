@@ -39,12 +39,12 @@ I needed to resolve several subtle issues to achieve a correct finetuning pipeli
 - The result of my first run had multiple special tokens, such as `<|think|>` and `<|tool_call|>` littered throughout the generated text. I realized that while the model is not intended to generate `<think></think>` blocks, the chat template was inserting them. I needed to create my own corrected chat template.
 - In my second run, I attempted to fix the chat template and to increase the quantization of the model weights to `NF4`. The results were much less coherent. It seems like smaller models are harder to quantize. A third run at 8-bit quantization resolved the issue.
 
-#### Guided Generation
-I'd like to pull out this significant issue into its own section. In my first three runs, I used a fixed prompt: "Write a satirical headline in the style of *The Onion*." It had issues with following guided ("Write a headline about office work."), so I tried to vary the prompts. 
-
-I experimented with first [yake](https://github.com/LIAAD/yake) and then [SpaCy](https://spacy.io/) to extract the subject of the headline and insert it into the prompt ("Write a satirical headline about {SUBJECT}"). However, this NLP pipeline didn't always result in sensible or grammatically correct prompt ("Write a satirical headline about FDA"). The results were ironically worse than the fixed prompt and likely compounded by the training on prompt bug (see Phase 2 for details).
-
-After that, I tried a much simpler approach. Instead of a fixed prompt, I used a fixed pool of 6-7 prompts ("Please write a satirical headline", "Can you write a headline that sounds like The Onion?", etc.). The results were surprisingly much better and effectively resolved the generation issue.
+> #### Guided Generation
+> I'd like to pull out this significant issue into its own section. In my first three runs, I used a fixed prompt: "Write a satirical headline in the style of *The Onion*." It had issues with following guided ("Write a headline about office work."), so I tried to vary the prompts. 
+>
+> I experimented with first [yake](https://github.com/LIAAD/yake) and then [SpaCy](https://spacy.io/) to extract the subject of the headline and insert it into the prompt ("Write a satirical headline about {SUBJECT}"). However, this NLP pipeline didn't always result in sensible or grammatically correct prompt ("Write a satirical headline about FDA"). The results were ironically worse than the fixed prompt and likely compounded by the training on prompt bug (see Phase 2 for details).
+>
+> After that, I tried a much simpler approach. Instead of a fixed prompt, I used a fixed pool of 6-7 prompts ("Please write a satirical headline", "Can you write a headline that sounds like The Onion?", etc.). The results were surprisingly much better and effectively resolved the generation issue.
 
 **Finetune Examples**
 ```
@@ -79,24 +79,24 @@ However, that led me to experiment with enabling thinking mode / chain of though
 
 While prompting the baseline `Qwen3-8B` with that chain of thought resulted in a few gems, it was often prone to run-on generation and there were significant issues with the model's thought process.
 
-**Chain of Thought Finetune Examples**
-```
+> #### **Synthetic Chain of Thought**
+> To solve this, I implemented a **knowledge distillation** pipeline:
+> 
+> 1.  I evaluated multiple models, and selected `Gemini 2.5 Flash` as the teacher model.
+> 2.  For each headline, I prompted `Gemini 2.5 Flash` to generate a **Chain of Thought** analysis, identifying the subject and the satirical angle. Constructing an effective prompt required multiple iterations and hand-written examples.
+> 3.  I concatenated the subject, satirical angle, and headline to construct a synthetic chain of thought.
+> 4.  Finally, I fine-tuned the `Qwen3-4B` student model on the synthetic chain of thought prompts, allowing it to learn not only the headline, but also the conceptual steps that led to it.
+>
+> Training on only 240 examples still resulted in better performance than any previous run.
+>
+> **Chain of Thought Finetune Examples**
+> ```
 > "Dog Owner Sues Neighbor For Losing Dog"
 > "Bush Wasn't As Bad As People Say"
 > "Art Critic Fooled By Simple Painting, Event A Major Cultural Moment"
-```
-
-While not perfect, we can easily observe a significant improvement in substance.
-
-#### Synthetic Chain of Thought
-To solve this, I implemented a **knowledge distillation** pipeline:
-
-1.  I evaluated multiple models, and selected `Gemini 2.5 Flash` as the teacher model.
-2.  For each headline, I prompted `Gemini 2.5 Flash` to generate a **Chain of Thought** analysis, identifying the subject and the satirical angle. Constructing an effective prompt required multiple iterations and hand-written examples.
-3.  I concatenated the subject, satirical angle, and headline to construct a synthetic chain of thought.
-4.  Finally, I fine-tuned the `Qwen3-4B` student model on the synthetic chain of thought prompts, allowing it to learn not only the headline, but also the conceptual steps that led to it.
-
-Training on only 240 examples still resulted in better performance than any previous run.
+> ```
+>
+> While not perfect, we can easily observe a significant improvement in substance.
 
 ## The Evaluation
 
@@ -108,7 +108,7 @@ I needed to engineer a more sophisticated, multi-step prompt that forced the jud
 
 The final models were evaluated against the baseline and a holdout set of 50 Onion headlines (labeled `Golden`). The holdout set was collected by manually visiting *The Onion* website and copying headlines.
 
-### Quantitative Analysis
+### Quantitative Comparison
 
 The LLM-as-judge revealed a clear and consistent improvement at each stage of the project.
 
@@ -119,7 +119,7 @@ The LLM-as-judge revealed a clear and consistent improvement at each stage of th
 | CoT Finetune (T03) vs. The Onion | **The Onion** | **~65%** |
 | The Onion vs. Baseline | **The Onion** | **~90%** |
 
-### Qualitative Showdown
+### Qualitative Comparison
 
 The quality gap is most apparent in head-to-head examples.
 
@@ -128,8 +128,7 @@ The quality gap is most apparent in head-to-head examples.
 - **T02:**    "Man In 2012 Already Knows He'll Be Dead By 2018"
 - **T03:**    "Critic Says 'Small Painting' By Koons Is 'The Most Important Art Work Of The Decade'"
 
-## Qualitative Analysis
-
+Overall, here's how I would describe each model.
 -   **Baseline:** The base model consistently defaulted to formulaic absurdities (e.g., "local government overreacts").
 -   **T02:** The finetuned model learned the linguistic pattern, but not the substance of *The Onion*.
 -   **T03:** The chain of thought model represents a significant leap, showing that a small model can learn nuanced, high-level satire when trained on a high-quality, synthetic dataset.
