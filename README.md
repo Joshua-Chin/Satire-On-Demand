@@ -100,7 +100,7 @@ While prompting the baseline `Qwen3-8B` with that chain of thought resulted in a
 
 ## The Evaluation
 
-A key challenge was that standardizing the evaluation. I selected `Gemini 2.5 Flash` to act as judge. Initial attempts resulted in the judge preferring simple style over complex substance. In particular, the humor and absurdity of the baseline samples are far easier to understand compared to the nuance of Onion News headlines.
+A key challenge was standardizing the evaluation. I selected `Gemini 2.5 Flash` to act as judge. Initial attempts resulted in the judge preferring simple style over complex substance. In particular, the humor and absurdity of the baseline samples are far easier to understand compared to the nuance of Onion News headlines.
 
 I needed to engineer a more sophisticated, multi-step prompt that forced the judge to analyze each headline's subject and satirical angle *before* making a preference. This "Chain-of-Thought" evaluation process proved necessary for creating a somewhat reliable assessment that aligned with my human evaluation. The final prompt can be found in `prompts/evaluation.txt` and the process in `Evaluation.ipynb`. It's quite likely that a better frontier model could significantly improve the evaluator.
 
