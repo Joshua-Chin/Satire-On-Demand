@@ -1,7 +1,9 @@
 from threading import Thread
+
 import gradio as gr
 
 from unsloth import FastLanguageModel
+import torch
 from transformers import TextIteratorStreamer
 
 
@@ -13,6 +15,8 @@ generation_args = {
     "top_k": 20,
     "min_p": 0,
 }
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Load model and tokenizer
 model_name = './finetunes/03-unsloth-CoT/checkpoint-60'
@@ -30,7 +34,7 @@ def generate_text(prompt):
         tokenize=False,
         add_generation_prompt=True,
     )
-    inputs = tokenizer(text, return_tensors="pt").to("cuda")
+    inputs = tokenizer(text, return_tensors="pt").to(device)
 
     # create the streamer
     streamer = TextIteratorStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
