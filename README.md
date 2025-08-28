@@ -1,8 +1,8 @@
 
 # Satire on Demand: Fine-Tuning a Small LLM for Satirical News Generation
 
-[![Hugging Face Models](https://img.shields.io/badge/Hugging%20Face-Models-yellow)](https://huggingface.co/YOUR-USERNAME) <!--- Replace with your Hugging Face profile link --->
-[![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/YOUR-USERNAME/YOUR-SPACE) <!--- Optional: Link to a Gradio/Streamlit demo --->
+[![Hugging Face Models](https://img.shields.io/badge/Hugging%20Face-Models-yellow)](https://huggingface.co/joshuachin/Qwen3-4B-Instruct-2507-satirical-headlines-CoT)
+[![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/joshuachin/satirical-headlines-demo)
 
 This document details the process of fine-tuning the [`Qwen/Qwen3-4B-Instruct-2507`](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) model to generate high-quality satirical news headlines in the style of *The Onion*. The final model demonstrates a significant improvement over the baseline, producing satire that is clever, nuanced, and context-aware.
 
@@ -156,7 +156,7 @@ Overall, here's how I would describe each model.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Joshua-Chin/YOUR-REPO-NAME
+    git clone https://github.com/Joshua-Chin/satire-on-demand
     ```
 
 2.  **Install dependencies:**
