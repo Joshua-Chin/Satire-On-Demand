@@ -1,5 +1,5 @@
 
-# Satire on Demand: Fine-Tuning a Small LLM for Satirical News Generation
+# Satire on Demand: Fine-Tuning a Small LLM for Satirical Headline Generation
 
 [![Hugging Face Models](https://img.shields.io/badge/Hugging%20Face-Models-yellow)](https://huggingface.co/joshuachin/Qwen3-4B-Instruct-2507-satirical-headlines-CoT)
 [![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/joshuachin/satirical-headlines-demo)
@@ -145,6 +145,7 @@ Overall, here's how I would describe each model.
 ├─ T01-baseline.ipynb        # Training script (baseline).
 ├─ T02-unsloth.ipynb         # Training script using unsloth.
 ├─ T03-CoT.ipynb             # Training script using a synthetic chain of thought prompt.
+├─ Upload.ipynb              # Upload script for HuggingFace models.
 ├─ lib/                      # Reusable Python code for inference and preprocessing.
 ├─ prompts/                  # Text files containing the prompts used for generation and evaluation.
 ├─ results/                  # Raw CSV outputs from the LLM-as-judge evaluations.
